@@ -1,0 +1,28 @@
+{
+  "name": "api2-helpdesk",
+  "version": "1.0.0",
+  "description": "HelpDesk API - Sistema de Gestao de Chamados e Suporte Tecnico (Arquitetura REST)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-db": "node config/initDb.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.24.2",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
